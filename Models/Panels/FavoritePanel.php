@@ -9,17 +9,13 @@ use Illuminate\Support\Facades\Auth;
 use Modules\Xot\Models\Panels\XotBasePanel;
 
 /**
- * Class FavoritePanel
- * @package Modules\Rating\Models\Panels
+ * Class FavoritePanel.
  */
 class FavoritePanel extends XotBasePanel {
     /**
      * The model the resource corresponds to.
-     *
-     * @var string
      */
     public static string $model = 'Modules\Rating\Models\Favorite';
-
 
     /**
      * @return object[]
@@ -49,12 +45,9 @@ class FavoritePanel extends XotBasePanel {
         ];
     }
 
-
     /**
      * Get the actions available for the resource.
      *
-     *
-     * @param Request|null $request
      * @return array
      */
     public function actions(Request $request = null) {
