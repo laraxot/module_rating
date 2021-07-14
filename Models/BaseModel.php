@@ -1,19 +1,20 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Modules\Rating\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Laravel\Scout\Searchable;
+//use Laravel\Scout\Searchable;
 //---------- traits
 use Modules\Xot\Traits\Updater;
 
 /**
- * Class BaseModel
- * @package Modules\Rating\Models
+ * Class BaseModel.
  */
 abstract class BaseModel extends Model {
     use Updater;
-    use Searchable;
+    //use Searchable;
 
     /**
      * @var string[]
