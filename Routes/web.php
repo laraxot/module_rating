@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -11,6 +13,6 @@
 |
 */
 
-Route::prefix('rating')->group(function() {
+Route::prefix('rating')->group(function () {
     Route::get('/', 'RatingController@index');
 });
