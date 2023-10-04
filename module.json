@@ -7,7 +7,5 @@
     "providers": [
         "Modules\\Rating\\Providers\\RatingServiceProvider"
     ],
-    "aliases": {},
-    "files": [],
-    "requires": []
+    "files": []
 }

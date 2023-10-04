@@ -1,7 +1,5 @@
 <?php
 
-declare(strict_types=1);
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,8 +10,7 @@ declare(strict_types=1);
 | contains the "web" middleware group. Now create something great!
 |
 */
-/*
-Route::prefix('rating')->group(function () {
+
+Route::prefix('rating')->group(function() {
     Route::get('/', 'RatingController@index');
 });
-*/

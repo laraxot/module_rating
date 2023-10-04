@@ -1,7 +1,5 @@
 <?php
 
-declare(strict_types=1);
-
 use Illuminate\Http\Request;
 
 /*
@@ -14,8 +12,7 @@ use Illuminate\Http\Request;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-/*
+
 Route::middleware('auth:api')->get('/rating', function (Request $request) {
     return $request->user();
 });
-*/
